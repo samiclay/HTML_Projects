@@ -1,0 +1,51 @@
+#header-img {
+  position: relative;
+  left: 20%;
+  padding: 25px;
+}
+
+#nav-bar {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  padding: 15px;
+  width: 100%;
+  background: lightblue;
+}
+
+.nav-link {
+  width: 10em;
+}
+
+#video {
+  position: relative;
+  container: flex;
+  top: 50px;
+  left: 20%;
+}
+
+.border {
+  border-style: double;
+  border-width: 10px;
+  border-color: blue;
+}
+
+.form-box {
+  position: relative;
+  top: 100px;
+  left: 25%;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  vertical-align: center;
+  background: lightblue;
+}
+
+@media (max-width: 600px){
+  #video {
+    left: 0%;
+  }
+  #header-img {
+    left: 0%;
+  }
+}
