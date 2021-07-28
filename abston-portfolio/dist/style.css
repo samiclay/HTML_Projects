@@ -1,0 +1,61 @@
+body {
+  background: black;
+  color: white;
+}
+
+#welcome-section {
+  position: relative;
+  top: 2em;
+  background: green;
+  height: 100vh;
+  text-align: center;
+}
+
+p,h1 {
+  padding: 1em;
+}
+
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: darkgreen;
+  padding: 2em;
+}
+
+navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+}
+
+a {
+  color: white;
+  margin: 1em;
+}
+
+a:hover {
+  color: red;
+}
+
+.project-tile {
+  background: black;
+  width: auto;
+  height: auto; 
+  padding: 1em;
+  text-align: center;
+}
+
+@media (max-width: 860px) {
+  .project-tile {
+    margin: 1em;
+  }
+  
+  navbar {
+    flex-wrap: wrap;
+  }
+}
