@@ -1,0 +1,24 @@
+body {
+  background: Cornsilk;
+  text-align: center;
+}
+#title {
+  background: DarkSeaGreen;
+}
+#description {
+  background: Gainsboro;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+}
+#tribute-link {
+  
+}
+#tribute-info {
+  text-align: left;
+}
+footer {
+  background: DarkSeaGreen;
+}
+
