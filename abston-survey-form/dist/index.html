@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Abston-Survey-Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main id="main">
+
+  <header>
+    <h1 id="title">
+      A Programmer's Survey
+    </h1>
+    <p id="description">
+      Tell us a little bit about yourself as a programmer
+    </p>
+    <hr>
+  </header>
+
+  <div id="form_box">
+  <form id="survey-form" class="green-border" action="#">
+    <div>
+      <label for="name" id="name-label">Name</label>
+      <input id="name" type="text" placeholder="Your Name" required>
+      <br><br>
+      <label for="email" id="email-label">Email</label>
+      <input id="email" type="email" placeholder="Your Email" required>
+      <br><br>
+      <label for="number" id="number-label">Age</label> <input id="number" type="number" placeholder="between 1 and 100" min="1" max="100">
+    </div>
+    <br><br>
+    <div>
+      <label for="dropdown">Coding Experience</label>
+      <select id="dropdown" name="xp">
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+        <option value="expert">Expert</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      <p>What is your Favorite Programming Language?</p>
+      <label for="CPP">C++/Java</label>
+      <input type="radio" id="CPP" name="main-language" value="CPP">
+      <label for="Javascript">Javascript/HTML/CSS</label>
+      <input type="radio" id="Javascript" name="main-language" value="Javascript">
+      <label for="Python">Python</label>
+      <input type="radio" id="Python" name="main-language" value="Python">
+    </div>
+    <br>
+    <div>
+      <p>What is your Favorite Operating System?</p>
+      <label for="linux">Linux/Unix</label>
+      <input id="linux" type="radio" name="comp-system" value="linux">
+      <label for="mac">Mac</label>
+      <input id="mac" type="radio" name="comp-system" value="mac">
+      <label for="windows">Windows</label>
+      <input id="windows" type="radio" name="comp-system" value="windows">
+    </div>
+    <br>
+    <div>
+      <p>Which topics do you enjoy?</p>
+      <label for="data-structs">Data Structures</label>
+      <input type="checkbox" value="Data Structures" id="data-structs">
+      <label for="algorithms"> Algorithms</label>
+      <input type="checkbox" value="Algorithms" id="algorithms">
+      <label for="web"> Web Development</label>
+      <input type="checkbox" value="Web-developement" id="web">
+      <label for="games">Video Game Design</label>
+      <input type="checkbox" value="game-design" id="games">
+      <label for="software"> Software Development</label>
+      <input type="checkbox" value="software-development" id="software">
+    </div>
+    <br><br>
+    <div>
+      <textarea id="textarea" name="comments" rows="6" cols="60">
+      </textarea>
+      
+      <input type=submit id="submit">Submit</input>
+    </div>
+    </div>
+
+  </form>
+</main>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

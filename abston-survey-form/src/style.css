@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  background-image: url("https://i1.wp.com/striv.tv/wp-content/uploads/2020/09/simple-background-backgrounds-passion-simple-1-5c9b95d2b9dfb.png?ssl=1");
+}
+
+header {
+  padding: 5px;
+}
+#survey-form {
+  padding: 25px;
+  width: 500px;
+  background: Lightgreen;
+}
+.green-border {
+  border-color: Green;
+  border-width: 5px;
+  border-style: solid;
+}
+
+#form_box {
+  display: flex;
+  justify-content: center;
+}
